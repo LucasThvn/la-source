@@ -66,7 +66,7 @@ export default function CheckoutForm(props: CheckoutFormProps): JSX.Element {
           type="submit"
           disabled={loading}
         >
-          Donate {formatAmountForDisplay(input.customDonation, config.CURRENCY)}
+          Valider mon don de {formatAmountForDisplay(input.customDonation, config.CURRENCY)}
         </button>
       </form>
       {clientSecret ? (
